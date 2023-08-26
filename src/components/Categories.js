@@ -1,5 +1,5 @@
 const Categories = () => (
-    <h1>Underconstruction</h1>
+  <h1>Underconstruction</h1>
 );
-  
+
 export default Categories;
