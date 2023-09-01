@@ -29,7 +29,7 @@ const Form = () => {
   };
 
   return (
-    <form onSubmit={submitForm}>
+    <form className="form" onSubmit={submitForm}>
       <input type="text" placeholder="Book title" value={title} onChange={changeTitle} />
       <input type="text" placeholder="Author" value={author} onChange={changeAuthor} />
       <button type="submit">ADD BOOK</button>

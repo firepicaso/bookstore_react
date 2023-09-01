@@ -4,7 +4,7 @@
   gap: 2rem;
   font-size: 1rem;
   color: #0290ff;
-  margin: 0.1rem 3rem;
+  margin: 0.1rem 2rem;
 }
 
 .nav {
@@ -20,7 +20,7 @@
 
 .books-container {
   background-color: #f5f6fa;
-  padding: 2rem 1rem 3rem;
+  padding: 2rem 0 3rem;
   height: 100%;
 }
 
@@ -34,6 +34,22 @@
   font-weight: 500;
 }
 
+.book-details {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0 1rem 0 0;
+}
+
+.remove-button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: transparent;
+  border: none;
+  color: rgb(128, 17, 17)
+}
+
 .form-container {
   display: flex;
   flex-direction: column;
@@ -42,6 +58,7 @@
 
 .form {
   display: grid;
-  grid-template-columns: 7fr 2fr 1fr;
+  grid-template-columns: 4fr 1fr 1fr;
   gap: 1rem;
+  padding: 2rem 2rem;
 }

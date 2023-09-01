@@ -6,7 +6,7 @@ const BooksPage = () => {
   const books = useSelector((state) => state.books.books);
 
   return (
-    <>
+    <div className="books-container">
       <ul className="books">
         {books.map((book) => (
           <Book
@@ -19,7 +19,7 @@ const BooksPage = () => {
         ))}
       </ul>
       <Form />
-    </>
+    </div>
   );
 };
 
