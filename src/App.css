@@ -47,7 +47,8 @@
   font-weight: 400;
   background-color: transparent;
   border: none;
-  color: rgb(128, 17, 17)
+  color: rgb(128, 17, 17);
+  cursor: pointer;
 }
 
 .form-container {
