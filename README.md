@@ -13,12 +13,10 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#deployment)
 - [👥 Authors](#authors)
@@ -65,17 +63,6 @@ We are using HTML, CSS, Javascript, React, and Redux in this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-Underconstruction
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Loom Walkthrough
-
-Underconstruction
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
@@ -106,19 +93,15 @@ Install this project with:
 ```
 --->
 
-### Usage
-
-To run the project, execute the following command:
-
-open index.html using the live server. Currently it only shows a welcome message.
-
 ### Run tests
 
-Under construction
+```
+npm run test
+```
 
 ### Deployment
 
-Please check the Event Portal throug this link
+Plase deploy this app using Netlify or Heroku
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -134,7 +117,9 @@ Please check the Event Portal throug this link
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Underconstruction
+- Comments section
+- Reading progress section
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
