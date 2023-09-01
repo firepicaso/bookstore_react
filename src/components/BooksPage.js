@@ -6,14 +6,20 @@ const BooksPage = () => {
   const books = useSelector((state) => state.books.books);
 
   return (
-    <div className="books-container">
+    <>
       <ul className="books">
         {books.map((book) => (
-          <Book key={book.id} title={book.title} author={book.author} />
+          <Book
+            key={book.id}
+            id={book.item_id}
+            title={book.title}
+            author={book.author}
+            category={book.category}
+          />
         ))}
       </ul>
       <Form />
-    </div>
+    </>
   );
 };
 
