@@ -1,13 +1,9 @@
-import { v4 as uuidv4 } from 'uuid';
+import { useSelector } from 'react-redux';
 import Book from './Book';
 import Form from './Form';
 
 const BooksPage = () => {
-  const books = [
-    { id: uuidv4(), title: 'The Hunger Games', author: 'Suzanne Collins' },
-    { id: uuidv4(), title: 'Dune', author: 'Frank Herbert' },
-    { id: uuidv4(), title: 'Capital in the Twenty-First Century', author: 'Suzanne Collins' },
-  ];
+  const books = useSelector((state) => state.books.books);
 
   return (
     <div className="books-container">

@@ -2,9 +2,10 @@ import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { removeBook } from '../redux/books/bookSlice';
 
-
 const Book = (props) => {
-  const { id, title, author, category } = props;
+  const {
+    id, title, author, category,
+  } = props;
 
   const dispatch = useDispatch();
 
@@ -14,16 +15,16 @@ const Book = (props) => {
 
   return (
     <li>
-      <p className="book-title">
+      <h2 className="book-title">
         {title}
-      </p>
+      </h2>
       <div>
-        <p className="book-author">
+        <span className="book-author">
           {author}
-        </p>
-        <p className="book-category">
+        </span>
+        <span className="book-category">
           {category}
-        </p>
+        </span>
         <button type="button" onClick={removeClick}>Remove</button>
       </div>
     </li>
@@ -31,6 +32,8 @@ const Book = (props) => {
 };
 
 Book.propTypes = {
+  id: PropTypes.string.isRequired,
+  category: PropTypes.isRequired,
   title: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired,
 };
