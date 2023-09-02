@@ -3,7 +3,7 @@
 <div align="center">
   <img src="./src/assets/book-shop.png" alt="bookstore app" width="140"  height="auto" />
   <br/>
-  <h3><b>Bookstore App</b></h3>
+  <h2><b>Bookstore App</b></h2>
 </div>
 <br>
 
@@ -28,9 +28,9 @@
 - [📝 License](#license)
 
 
-# 📖 Leaderboard <a name="about-project"></a>
+# 📖 Bookstore App <a name="about-project"></a>
 
-This is a SPA webapp showcasing a calcular made with React and Redux
+This is a SPA webapp showcasing a bookstore app which allows user to add and remove books and Bookstore API, made with React and Redux
 
 ## 🛠 Built With <a name="built-with"></a>
 
