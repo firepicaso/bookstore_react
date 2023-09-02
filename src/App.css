@@ -306,7 +306,7 @@ header img {
 }
 
 .form-input::placeholder {
-  color: var(--very-light-pink)
+  color: var(--very-light-pink);
 }
 
 .add-button {
