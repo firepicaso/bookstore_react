@@ -1,31 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  background-color: #fafafa;
+}
+
 .App-header {
+  background-color: white;
   display: flex;
   align-items: center;
   gap: 2rem;
-  font-size: 1rem;
-  color: #0290ff;
-  margin: 0.1rem 2rem;
+  padding: 0 2rem;
+  box-shadow: 0 0 1.5px 0 rgba(0, 0, 0, 0.25);
 }
 
+.App-header h1 {
+  width: 15rem;
+  height: 2.313rem;
+  margin: 0.375rem 2.938rem 0.125rem 0;
+  font-family: Montserrat;
+  font-size: 1.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0290ff;
+}
+  
 .nav {
   display: flex;
+  padding: 0;
   gap: 2rem;
   list-style: none;
 }
-
+  
 .nav-text {
-  color: rgb(62, 62, 62);
+  width: 3.688rem;
+  height: 1rem;
+  font-family: Montserrat;
+  font-size: 0.813rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
   text-decoration: none;
 }
-
-.books-container {
-  background-color: #f5f6fa;
-  padding: 2rem 0 3rem;
-  height: 100%;
-}
-
+    
 .books {
   list-style: none;
+  padding: 0.5rem 0;
+}
+  
+.book-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  margin: 1rem 3rem;
+  box-shadow: 0 0 1.5px 0 rgba(0, 0, 0, 0.25);
 }
 
 .book-title {
@@ -34,14 +68,7 @@
   font-weight: 500;
 }
 
-.book-details {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  padding: 0 1rem 0 0;
-}
-
-.remove-button {
+.button {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: 400;
@@ -49,6 +76,16 @@
   border: none;
   color: rgb(128, 17, 17);
   cursor: pointer;
+}
+
+.percentage {
+  display: flex;
+  flex-direction: column;
+}
+
+.hr {
+  margin: 3rem 2rem;
+  border-bottom: 1px solid #e7e7e7;
 }
 
 .form-container {
@@ -61,5 +98,5 @@
   display: grid;
   grid-template-columns: 4fr 1fr 1fr;
   gap: 1rem;
-  padding: 2rem 2rem;
+  padding: 0 2rem;
 }
