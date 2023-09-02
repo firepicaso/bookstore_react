@@ -62,19 +62,68 @@ body {
   box-shadow: 0 0 1.5px 0 rgba(0, 0, 0, 0.25);
 }
 
+.category {
+  width: 3.063rem;
+  height: 1.125rem;
+  margin: 0 2.438rem 0 0;
+  opacity: 0.5;
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
 .book-title {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5rem;
-  font-weight: 500;
+  width: 12.313rem;
+  height: 1.813rem;
+  margin: 0.188rem 20.188rem 0 0;
+  font-family: RobotoSlab;
+  font-size: 1.375rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  color: #121212;
+}
+
+.book-author {
+  width: 6.688rem;
+  height: 1.188rem;
+  margin: 0.25rem 0 0;
+  font-family: RobotoSlab;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+}
+
+.buttons-div {
+  padding-top: 1rem;
+  display: flex;
+  gap: 0.8rem;
 }
 
 .button {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
+  height: 1.188rem;
   background-color: transparent;
-  border: none;
-  color: rgb(128, 17, 17);
+  font-family: RobotoSlab;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+  border: unset;
+  padding: 0;
   cursor: pointer;
 }
 
@@ -89,14 +138,25 @@ body {
 }
 
 .hr {
-  margin: 3rem 2rem;
+  margin: 1.5rem 2rem;
   border-bottom: 1px solid #e7e7e7;
 }
 
 .form-container {
   display: flex;
   flex-direction: column;
-  margin: 4rem 2rem;
+  margin: 0 2rem;
+}
+
+.form-header {
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.18px;
+  color: #888;
 }
 
 .form {
