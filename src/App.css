@@ -4,13 +4,34 @@ body {
   background-color: #fafafa;
 }
 
-.App-header {
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: white;
+  box-shadow: 0 0 1.5px 0 rgba(0, 0, 0, 0.25);
+  padding: 0.8rem 6.25rem;
+}
+
+.user-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 5rem;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.514);
+  cursor: pointer;
+}
+
+header img {
+  width: 15px;
+}
+
+.App-header {
   display: flex;
   align-items: center;
   gap: 2rem;
-  padding: 0.8rem 2rem;
-  box-shadow: 0 0 1.5px 0 rgba(0, 0, 0, 0.25);
 }
 
 .App-header h1 {
@@ -53,13 +74,17 @@ body {
 }
 
 .book-div {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
   align-items: center;
   background-color: white;
-  padding: 0.5rem 1rem;
-  margin: 1rem 2rem;
+  padding: 0.5rem 0;
+  margin: 1rem 6.25rem;
   box-shadow: 0 0 1.5px 0 rgba(0, 0, 0, 0.25);
+}
+
+.book-details {
+  padding-left: 1.688rem;
 }
 
 .category {
@@ -159,6 +184,12 @@ body {
   color: #121212;
 }
 
+.progress-divider {
+  width: 1rem;
+  border-right: 1px solid #8b4747;
+  background-color: #0290ff; 
+}
+
 .completed-text {
   width: 5rem;
   height: 1.125rem;
@@ -206,6 +237,7 @@ body {
 }
 
 .update-button {
+  width: 10rem;
   background-color: #0290ff;
   border: unset;
   font-family: RobotoSlab;
@@ -230,7 +262,7 @@ body {
 .form-container {
   display: flex;
   flex-direction: column;
-  margin: 0 2rem;
+  margin: 0 6.25rem;
 }
 
 .form-header {
@@ -246,7 +278,7 @@ body {
 
 .form {
   display: grid;
-  grid-template-columns: 4fr 1fr 1fr;
+  grid-template-columns: 4fr 2fr 1fr;
   gap: 1rem;
 }
 
