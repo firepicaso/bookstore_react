@@ -34,7 +34,9 @@ const Book = (props) => {
         </div>
       </div>
       <div className="chapter-details">
-        Chapter 17
+        <span className="current-chapter">CURRENT CHAPTER</span>
+        <span className="chapter-number">Chapter 17</span>
+        <button className="update-button" type="button">UPDATE PROGRESS</button>
       </div>
     </li>
   );

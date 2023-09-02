@@ -83,6 +83,11 @@ body {
   flex-direction: column;
 }
 
+.chapter-details {
+  display: flex;
+  flex-direction: column;
+}
+
 .hr {
   margin: 3rem 2rem;
   border-bottom: 1px solid #e7e7e7;
