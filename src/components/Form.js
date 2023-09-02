@@ -32,9 +32,9 @@ const Form = () => {
     <div className="form-container">
       <h2 className="form-header">ADD NEW BOOK</h2>
       <form className="form" onSubmit={submitForm}>
-        <input type="text" placeholder="Book title" value={title} onChange={changeTitle} />
-        <input type="text" placeholder="Author" value={author} onChange={changeAuthor} />
-        <button type="submit">ADD BOOK</button>
+        <input className="form-input" type="text" placeholder="Book title" value={title} onChange={changeTitle} />
+        <input className="form-input" type="text" placeholder="Author" value={author} onChange={changeAuthor} />
+        <button className="add-button" type="submit">ADD BOOK</button>
       </form>
     </div>
   );
