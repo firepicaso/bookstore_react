@@ -1,9 +1,16 @@
-import { useSelector } from 'react-redux';
+import { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { fetchBooks } from '../redux/books/bookSlice';
 import Book from './Book';
 import Form from './Form';
 
 const BooksPage = () => {
+  const dispatch = useDispatch();
   const books = useSelector((state) => state.books.books);
+
+  useEffect(() => {
+    dispatch(fetchBooks());
+  }, [dispatch]);
 
   return (
     <div className="books-container">

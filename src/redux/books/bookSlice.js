@@ -95,5 +95,5 @@ export const booksSlice = createSlice({
   },
 });
 
-export { addBook, removeBook, fetchBooks };
+export { fetchBooks, addBook, removeBook };
 export default booksSlice.reducer;
