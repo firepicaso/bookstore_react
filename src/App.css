@@ -38,7 +38,7 @@ header img {
   width: 15rem;
   height: 2.313rem;
   margin: 0.375rem 2.938rem 0.125rem 0;
-  font-family: Montserrat;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-size: 1.875rem;
   font-weight: bold;
   font-stretch: normal;
@@ -47,18 +47,18 @@ header img {
   letter-spacing: normal;
   color: #0290ff;
 }
-  
+
 .nav {
   display: flex;
   padding: 0;
   gap: 2rem;
   list-style: none;
 }
-  
+
 .nav-text {
   width: 3.688rem;
   height: 1rem;
-  font-family: Montserrat;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-size: 0.813rem;
   font-weight: normal;
   font-stretch: normal;
@@ -91,7 +91,7 @@ header img {
   height: 1.125rem;
   margin-bottom: 0.2rem;
   opacity: 0.5;
-  font-family: Montserrat;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-size: 0.875rem;
   font-weight: bold;
   font-stretch: normal;
@@ -104,7 +104,7 @@ header img {
 .book-title {
   width: 12.313rem;
   height: 1.813rem;
-  font-family: RobotoSlab;
+  font-family: RobotoSlab, Arial, Helvetica, sans-serif;
   font-size: 1.375rem;
   font-weight: bold;
   font-stretch: normal;
@@ -119,7 +119,7 @@ header img {
   width: 6.688rem;
   height: 1.188rem;
   margin: 0 0;
-  font-family: RobotoSlab;
+  font-family: RobotoSlab, Arial, Helvetica, sans-serif;
   font-size: 0.875rem;
   font-weight: 300;
   font-stretch: normal;
@@ -138,7 +138,7 @@ header img {
 .button {
   height: 1.188rem;
   background-color: transparent;
-  font-family: RobotoSlab;
+  font-family: RobotoSlab, Arial, Helvetica, sans-serif;
   font-size: 0.875rem;
   font-weight: 300;
   font-stretch: normal;
@@ -174,7 +174,7 @@ header img {
 .percentage {
   width: 4.25rem;
   height: 2.438rem;
-  font-family: Montserrat;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-size: 2rem;
   font-weight: normal;
   font-stretch: normal;
@@ -187,14 +187,14 @@ header img {
 .progress-divider {
   width: 1rem;
   border-right: 1px solid #8b4747;
-  background-color: #0290ff; 
+  background-color: #0290ff;
 }
 
 .completed-text {
   width: 5rem;
   height: 1.125rem;
   opacity: 0.5;
-  font-family: Montserrat;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-size: 0.875rem;
   font-weight: normal;
   font-stretch: normal;
@@ -213,7 +213,7 @@ header img {
   width: 7.875rem;
   height: 1.125rem;
   opacity: 0.5;
-  font-family: RobotoSlab;
+  font-family: RobotoSlab, Arial, Helvetica, sans-serif;
   font-size: 0.813rem;
   font-weight: 300;
   font-stretch: normal;
@@ -226,7 +226,7 @@ header img {
 .chapter-number {
   width: 4.688rem;
   height: 1.313rem;
-  font-family: RobotoSlab;
+  font-family: RobotoSlab, Arial, Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: 300;
   font-stretch: normal;
@@ -240,7 +240,7 @@ header img {
   width: 10rem;
   background-color: #0290ff;
   border: unset;
-  font-family: RobotoSlab;
+  font-family: RobotoSlab, Arial, Helvetica, sans-serif;
   font-size: 0.813rem;
   font-weight: 300;
   font-stretch: normal;
@@ -266,7 +266,7 @@ header img {
 }
 
 .form-header {
-  font-family: Montserrat;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-size: 1.25rem;
   font-weight: bold;
   font-stretch: normal;
@@ -291,7 +291,7 @@ header img {
 .add-button {
   background-color: #0290ff;
   width: 8.938rem;
-  font-family: RobotoSlab;
+  font-family: RobotoSlab, Arial, Helvetica, sans-serif;
   font-size: 0.813rem;
   font-weight: bold;
   font-stretch: normal;
