@@ -25,6 +25,7 @@ const BooksPage = () => {
           />
         ))}
       </ul>
+      <div className="hr" />
       <Form />
     </div>
   );
