@@ -17,7 +17,7 @@ const BooksPage = () => {
       <ul className="books">
         {books.map((book) => (
           <Book
-            key={book.id}
+            key={book.item_id}
             id={book.item_id}
             title={book.title}
             author={book.author}
